@@ -2,17 +2,17 @@ import React from "react";
 import ExpenseForm from "./ExpenseForm";
 import "./NewExpense.css";
 const NewExpense = (props) => {
-  const saveExepenceDataHandler = (enteredExpensedata) => {
+  const saveExpenseDataHandler = (enteredExpenseData) => {
     const expenseData = {
-      ...enteredExpensedata,
-      id: Math.random().toString(),
+      ...enteredExpenseData,
+      id: Math.random().toString()
     };
-    console.log(expenseData);
     props.onAddExpense(expenseData);
   };
+
   return (
-    <div className="new-expense">      
-      <ExpenseForm onSaveExpenceData={saveExepenceDataHandler}/>
+    <div className='new-expense'>
+      <ExpenseForm onSaveExpenseData={saveExpenseDataHandler} />
     </div>
   );
 };

@@ -1,14 +1,12 @@
 import "./App.css";
 import React, {useState} from "react";
-import ExpenseItem from "./Components/Expenses/ExpenseItem";
 import Expenses from "./Components/Expenses/Expenses";
-import ExpenseForm from "./Components/NewExpense/ExpenseForm";
 import NewExpense from "./Components/NewExpense/NewExpense";
 
  const DUMMY__EXPENSES = [
    {
      id: "e1",
-     title: "Toilet Paper",
+     title: "Books",
      amount: 94.12,
      date: new Date(2020, 7, 14),
    },

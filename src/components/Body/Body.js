@@ -79,7 +79,7 @@ function Body() {
           trigger={() => {
             return (
               <button>
-                Download <ArrowDown />
+               <ArrowDown />
               </button>
             );
           }}

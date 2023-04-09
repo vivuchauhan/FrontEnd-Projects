@@ -23,6 +23,12 @@ import NewExpense from "./Components/NewExpense/NewExpense";
      amount: 450,
      date: new Date(2021, 5, 12),
    },
+   {
+    id: "e5",
+    title: "Bike",
+    amount: 105450,
+    date: new Date(2023, 1, 12),
+  },
  ];
 const App = () => {
   const [expenses,setExpenses]=useState(DUMMY__EXPENSES);

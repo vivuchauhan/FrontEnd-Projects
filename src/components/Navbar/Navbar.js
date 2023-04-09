@@ -6,22 +6,9 @@ import styles from "./navbar.css";
 
 function Navbar() {
 
-
-
-  // useEffect(()=>{
-  //   const handleScroll = () =>{
-  //     setSticky(window.scrollY > 200)
-  //   }
-  //   window.addEventListener('scroll',handleScroll)
-  //   return()=>window.removeEventListener("scroll",handleScroll);
-  // })
-
     const navigate = useNavigate();
 
-  //   const clickHandler = (e) => {
-  //     e.preventDefault();
-  //     navigate('/login');
-  //   }
+ 
     const toHome=(e)=>{
       e.preventDefault();
       navigate('/');
@@ -33,22 +20,16 @@ function Navbar() {
     };
 
 
-    // const user = useContext(UserContext);
-
-
-
   return (
     <div className='navbar_fixed'>
     <div className="container1">
-      <h onClick={toHome}>Resume<span>Builder</span></h>
+      <h onClick={toHome}>Create<span>Resume</span></h>
       <nav className="Nav0" ref={navRef} >
       <ul className="links">
         <Link to="/" className="home"><li>Home</li></Link>
-        <Link to="/Header" className="Header"><li>Resume Builder</li></Link>
+        <Link to="/Header" className="Header"><li>Create Resume</li></Link>
         <Link to="/About" className="about"><li>About Us</li></Link>
         <Link to="/Contactus" className="contactus"><li>Contact Us</li></Link>
-        {/* <Link to="/Login" className="signin"><li>Login</li></Link>
-        <Link to="/Signup" className="signin"><li>New User ?</li></Link> */}
         
         </ul>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
@@ -63,7 +44,7 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;
 
 
 

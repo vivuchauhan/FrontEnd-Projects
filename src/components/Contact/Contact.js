@@ -31,19 +31,19 @@ function Contact() {
         <div class="icons">
             <i class="fas fa-envelope"></i>
             <h3> Email</h3>
-            <p>ankitaawasarmol04@gmail.com</p>
+            <p>vivuchauhan333@gamil.com</p>
         </div>
 
         <div class="icons">
             <i class="fas fa-phone"></i>
             <h3>Number</h3>
-            <p>+91-8149755748</p>
+            <p>+91-9410709044</p>
         </div>
 
         <div class="icons">
             <i class="fas fa-map-marker-alt"></i>
             <h3>Address</h3>
-            <p>Nashik-422101</p>
+            <p>Dehradun-248006</p>
         </div>
 
     </div>
@@ -80,4 +80,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default Contact;

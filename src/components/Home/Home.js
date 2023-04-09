@@ -8,9 +8,9 @@ function Home() {
     <div className='bg'>
     <Navbar/>
     <div className='home-content'>
-    <h3 className='heading'>The fast, easy way to build a better resume.</h3>
+    <h3 className='heading'>The fast, easy way to create a better resume.</h3>
     <br/>
-    <p className='paragraph'>Our resume builder includes a review from one of our experts.</p>
+    <p className='paragraph'>Our resume creater includes a review from one of our experts.</p>
     <p className='paragraph'>Fast and Easy to Use Our resume builder lets you easily and quickly create a resume using our resume wizard.</p>
     <br/>
     <h3 className='home_navbar2_login'>Build Your Resume...</h3>
